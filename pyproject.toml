@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gpt3-api"
+version = "0.1.0"
+description = "Wrapper for OpenAI GPT-3 API."
+authors = ["OpenGPT <opengpt@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
